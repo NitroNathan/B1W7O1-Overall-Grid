@@ -1,0 +1,26 @@
+.container-grid{
+display: grid;
+grid-template-columns:auto auto auto auto;
+grid-template-rows: auto auto auto auto;
+
+}
+
+.logo{
+grid-column: 1/4;
+grid-row: 1/4;	
+}
+
+.banner{
+	grid-column: 1/4;
+	grid-row:1/4;
+}
+
+.fade{
+	grid-column: 1/4;
+	grid-row:4/4;
+}
+
+.nivo{
+	grid-column: 2/4;
+	grid-row: 4/4;
+}
